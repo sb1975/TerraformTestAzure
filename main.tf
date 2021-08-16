@@ -1,3 +1,4 @@
+#Attempting CI from github
 terraform {
   backend "azurerm" {
     resource_group_name  = "rg01"
