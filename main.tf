@@ -3,14 +3,14 @@ terraform {
     resource_group_name  = "rg01"
     storage_account_name = "saterraformstate0813"
     container_name       = "tstate"
-    key                  = "t2jx5f4cJUGXFw8A8Y8DL3kYdRfGVXKK9Xp/TKR7wtllBGLDYhbMFBQ8XeiG7DbCEICtLfHFmxQcnJzuobjfBA=="
+    key                  = "o344PrdkaYRl/VEkyY0A2OSHxGA0/4hiH6vsReo7xSJge7HOSdYHZIpgt3Cw9PQ86maAfcTE22m02omCwgK5Aw=="
   }
 
   required_providers {
     azurerm = {
       # Specify what version of the provider we are going to utilise
       source  = "hashicorp/azurerm"
-      version = ">= 2.71.0"
+      version = ">= 2.4.1"
     }
   }
 }
