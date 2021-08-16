@@ -10,11 +10,7 @@ terraform {
     azurerm = {
       # Specify what version of the provider we are going to utilise
       source  = "hashicorp/azurerm"
-<<<<<<< HEAD
       version = ">= 2.4.1"
-=======
-      version = ">= 2.188.1"
->>>>>>> 43aff84227d2fcd3695e017a09060cebdd4f3c9b
     }
   }
 }
