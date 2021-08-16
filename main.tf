@@ -40,7 +40,7 @@ resource "azurerm_subnet" "sn" {
 }
 # Create our Azure Storage Account - terraformsa
 resource "azurerm_storage_account" "sa" {
-  name                     = "terraformsa"
+  name                     = "terraformsa0816"
   resource_group_name      = azurerm_resource_group.rg.name
   location                 = azurerm_resource_group.rg.location
   account_tier             = "Standard"
