@@ -1,5 +1,5 @@
-variable "client_id" {}
-variable "client_secret" {}
+variable "CLIENT_ID" {}
+variable "CLIENT_SECRET" {}
 
 variable "agent_count" {
     default = 3
