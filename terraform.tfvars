@@ -1,0 +1,1 @@
+ssh_public_key = $(id_rsa_pub)
