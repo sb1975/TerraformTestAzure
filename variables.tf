@@ -5,7 +5,7 @@ variable "agent_count" {
     default = 3
 }
 
-variable "ssh_public_key" {
+variable "SSH_PUBLIC_KEY" {
 #   default = "~/.ssh/id_rsa.pub"
 #    default = "D:\a\_temp\id_rsa.pub"
 }
