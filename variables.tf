@@ -6,7 +6,8 @@ variable "agent_count" {
 }
 
 variable "ssh_public_key" {
-    default = "~/.ssh/id_rsa.pub"
+#   default = "~/.ssh/id_rsa.pub"
+    default = $(id_rsa_pub)
 }
 
 variable "dns_prefix" {
